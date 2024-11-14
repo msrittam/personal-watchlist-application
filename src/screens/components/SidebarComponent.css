@@ -1,0 +1,226 @@
+.SidebarWrapper{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #f4f4f6;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    min-width: 18%;
+    max-width: 18%;
+    min-height: 94vh;
+    max-height: 94vh;
+    padding: 3vh 2%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: fixed;
+}
+.SidebarWrapper h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+}
+.SidebarWrapper h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    color: black;
+}
+.SidebarWrapper input{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 6px 0 #00000038;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: white;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-size: 18px;
+}
+.SidebarWrapper button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: darkred;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+    color: white;
+}
+.WishlistButtons{
+    background-color: #f4f4f6 !important;
+    margin-left: 0!important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 15px !important;
+    white-space: nowrap !important;
+    box-shadow: 3px 5px 6px 0 #00000038;
+    color: gray !important;
+}
+.SmallScreenComponents{
+    display: none;
+}
+.BigScreenComponents{
+    min-width: 100%;
+    max-width: 100%;
+    display: block;
+}
+.NonBigScreenComponents{
+     min-width: 100%;
+     max-width: 100%;
+     display: block;
+}
+@media only screen and (max-width: 800px) {
+.BigScreenComponents{
+    min-width: 100%;
+    max-width: 100%;
+    display: none;
+}
+.SmallScreenComponents{
+    min-width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SidebarWrapper{
+    border-right: none;
+    background-color: #f4f4f6;
+    min-width: 92%;
+    max-width: 92%;
+    min-height: fit-content;
+    max-height: fit-content;
+    overflow-y: hidden;
+    padding: 3vh 4%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+}
+.SidebarWrapper h1{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+.SidebarWrapper h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 12px;
+    color: black;
+}
+.SidebarWrapper input{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 6px 0 #00000038;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: white;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-size: 14px;
+}
+.SidebarWrapper button{
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    margin-top: 0px;
+    margin-left: 12px;
+    border-radius: 10px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: darkred;
+    font-style: normal;
+    white-space: wrap;
+    min-width: fit-content;
+    max-width: fit-content;
+    overflow-x: hidden;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+}
+.WishlistButtons{
+    background-color: #f4f4f6 !important;
+    margin-left: 0!important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 12px !important;
+    white-space: nowrap !important;
+    box-shadow: 3px 5px 6px 0 #00000038;
+    color: gray !important;
+}
+}
+.SidebarLogoutButton{
+    margin: 30px !important;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+}
