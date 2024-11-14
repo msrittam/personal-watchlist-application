@@ -37,7 +37,7 @@
 ![Screenshot (88).png](src%2Fassets%2Fscreenshots%2FScreenshot%20%2888%29.png)
 ![Screenshot (89).png](src%2Fassets%2Fscreenshots%2FScreenshot%20%2889%29.png)
 **<br/><br/>Some website references that helped me for making the project are given below:<br/><br/>**
-**1) Downloading git inside system: [reference website link](https://git-scm.com/downloads/win)**
+**1) Downloading git inside system: [reference website link](https://git-scm.com/downloads/win)<br/>**
 **2) Installing nodejs: [reference website link](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)<br/>**
 **3) Installing nodejs using prebuilt installer: [reference website link](https://nodejs.org/en/download/prebuilt-installer)<br/>**
 **4) Resolving create react app error: [reference website link](https://stackoverflow.com/questions/59561788/im-getting-error-like-this-while-creating-react-app)<br/>**
